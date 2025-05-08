@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPOO2", "..\DesafioPO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPOO3", "..\DesafioPOO3\DesafioPOO3.csproj", "{69374997-870C-49F7-ACCF-3B9FE6E63483}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPOO4.Tests", "..\DesafioPOO4.Tests\DesafioPOO4.Tests.csproj", "{06D63A57-1461-42CF-A4A5-3D5AAAEBA54F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A1C96EA6-F67A-4863-BE56-49015EF7FB64} = {A1C96EA6-F67A-4863-BE56-49015EF7FB64}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPOO4", "..\DesafioPOO4\DesafioPOO4.csproj", "{A1C96EA6-F67A-4863-BE56-49015EF7FB64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,14 @@ Global
 		{69374997-870C-49F7-ACCF-3B9FE6E63483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69374997-870C-49F7-ACCF-3B9FE6E63483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69374997-870C-49F7-ACCF-3B9FE6E63483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D63A57-1461-42CF-A4A5-3D5AAAEBA54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D63A57-1461-42CF-A4A5-3D5AAAEBA54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D63A57-1461-42CF-A4A5-3D5AAAEBA54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D63A57-1461-42CF-A4A5-3D5AAAEBA54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C96EA6-F67A-4863-BE56-49015EF7FB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C96EA6-F67A-4863-BE56-49015EF7FB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C96EA6-F67A-4863-BE56-49015EF7FB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C96EA6-F67A-4863-BE56-49015EF7FB64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
